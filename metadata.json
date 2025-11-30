@@ -1,0 +1,7 @@
+{
+  "name": "Sedayu Sehat DIY",
+  "description": "Web Navigasi dan Rekomendasi Layanan Kesehatan di Yogyakarta menggunakan Geolocation dan GenAI.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
