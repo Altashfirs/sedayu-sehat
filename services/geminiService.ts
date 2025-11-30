@@ -1,7 +1,7 @@
 import { GoogleGenAI } from "@google/genai";
 import { Facility, AnalysisResult } from '../types';
 
-const apiKey = process.env.API_KEY || '';
+const apiKey = process.env.VITE_API_KEY || '';
 const ai = new GoogleGenAI({ apiKey });
 
 export const analyzeFacility = async (facility: Facility): Promise<Omit<AnalysisResult, 'loading'>> => {
